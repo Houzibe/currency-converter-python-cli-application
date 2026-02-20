@@ -15,6 +15,18 @@ print("1. USD")
 print("2. EUR")
 print("3. GBP")
 print()
-choice = input("Enter selection(between 1 to 3): ")
+choice = int(input("Enter selection(between 1 to 3): "))
 print()
-print(f"You choice is {choice}")
+
+if choice == 1:
+    print("You want to convert Naira to USD")
+    print(f"The exchange rate is {exchange_rates['USD']}")
+elif choice == 2:
+    print("You want to convert Naira to EUR")
+    print(f"The exchange rate is {exchange_rates['EUR']}")
+elif choice == 3:
+    print("You want to convert Naira to GBP")
+    print(f"The exchange rate is {exchange_rates['GBP']}")
+else:
+    print("Sorry, you enter a wrong option. Try again...")
+    choice = int(input("Enter selection(between 1 to 3): "))
