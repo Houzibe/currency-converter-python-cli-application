@@ -40,6 +40,23 @@ TECHNOLOGIES USED
   
 - No external dependencies required
 
+APPLICATION OUTPUT
+
+****************************************************
+      Currency Converter CLI Application  
+****************************************************
+Note: This App converts naira to USD, EUR, GBP.
+
+Enter amount(in Naira): 150000
+
+Conversion Outcome:
+----------------------------------------------------
+150000 Naira is 111.65 USD;
+150000 Naira is 94.7 EUR;
+150000 Naira is 82.73 GBP;
+----------------------------------------------------
+Thank you for using our currency converter today!
+
 
 Author: Houzibe Denis
 
