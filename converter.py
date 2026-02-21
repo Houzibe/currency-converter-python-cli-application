@@ -14,6 +14,7 @@ exchange_rates = {
     }
 
 def currency_conversion(amount, rate):
+    """This function convert amount in Naira into a different currency using defined rate """
     return round(float(amount)*rate,2)
 
 print()
