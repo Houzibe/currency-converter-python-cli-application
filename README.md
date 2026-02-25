@@ -58,6 +58,10 @@ Conversion Outcome:
 
 150000 Naira is 82.73 GBP;
 
+150000 Naira is 61560 XAF;
+
+150000 Naira is 1179.64 GHS;
+
 ----------------------------------------------------
 Thank you for using our currency converter today!
 
